@@ -1,6 +1,6 @@
 body {
     font-family: 'Oswald', sans-serif;
-    background-color: #fdf6d7;
+    background-color: #201702;
     margin: 0px;
 }
 
@@ -11,17 +11,27 @@ body {
     object-fit: cover;
     display: block;
     margin: 0 auto;
+    padding: 20px;
+    
 }
 
-.projects, 
-.about-me {
-    border: 1px #d0d0d0 solid;
+.projects {
+    border: 20px hotpink solid;
     padding: 20px;
-    background-color: white;
+    background-color:bisque;
+    border-radius: 45px;
+}
+
+.about-me {
+    padding: 20px;
+    background-color:hotpink;
+
+    border-radius: 45px;
 }
 
 .title {
     text-align: center;
+    color:bisque
 }
 
 main {
@@ -36,6 +46,12 @@ main {
 .about-me {
     flex: 1;
     margin-right: 10px;
+}
+
+.child {
+    background-color:bisque;
+    border-radius: 45px;
+    padding: 20px
 }
 
 .experience-organization {
