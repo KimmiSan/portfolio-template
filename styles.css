@@ -1,6 +1,6 @@
 body {
     font-family: 'Oswald', sans-serif;
-    background-color: #201702;
+    background-color: #413128;
     margin: 0px;
 }
 
@@ -14,19 +14,20 @@ body {
     padding: 20px;
     float: left;
     
+    
 }
 
 .projects {
-    border: 20px hotpink solid;
+    border: 20px #F7C5DD solid;
     padding: 20px;
-    background-color:bisque;
+    background-color:#DDEBE7;
     border-radius: 45px;
 }
 
 .about-me {
+    border: 20px #F7C5DD solid;
     padding: 20px;
-    background-color:hotpink;
-
+    background-color:#DDEBE7;
     border-radius: 45px;
 }
 
@@ -49,14 +50,15 @@ main {
     margin-right: 10px;
 }
 
-.child {
-    background-color:bisque;
-    border-radius: 45px;
-    padding: 20px
-}
 
 .experience-organization {
     display: inline;
+}
+
+.dark-mode {
+    font-family: 'Oswald', sans-serif;
+    background-color: #201702;
+    margin: 0px;
 }
 
 @media only screen and (max-width: 800px) {
